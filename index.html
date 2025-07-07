@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transforma la salud de tu mascota</title>
+    <title>Transforma la salud de tu mascota con nuestra asesoría nutricional</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,9 +18,9 @@
             margin: 0 auto;
             padding: 20px;
         }
-        .header {
+        header {
             text-align: center;
-            padding: 50px 0;
+            padding: 40px 0;
         }
         h1 {
             color: #34a853;
@@ -33,31 +33,13 @@
             text-decoration: none;
             border-radius: 5px;
             display: inline-block;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         .cta-button:hover {
             background-color: #2c8d44;
         }
-        .form-container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        input, button {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-        button {
-            background-color: #34a853;
-            color: white;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #2c8d44;
+        section {
+            margin-top: 40px;
         }
         .image-container {
             text-align: center;
@@ -65,28 +47,134 @@
         .image-container img {
             width: 80%;
             max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            text-align: center;
+            color: #2c8d44;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .benefits, .what-includes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .benefit, .include-item {
+            width: 45%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .include-item {
+            background-color: #f0f8ff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #34a853;
+            color: white;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <div class="header">
-            <h1>¡Transforma la salud de tu mascota con una nutrición natural!</h1>
-            <p>Descarga nuestra guía gratuita y descubre cómo la nutrición adecuada puede mejorar la salud de tu perro o gato. ¡Es fácil y efectivo!</p>
-            <a href="#form" class="cta-button">Descarga tu guía ahora</a>
-        </div>
+        <!-- Header Section -->
+        <header>
+            <h1>Transforma la salud de tu mascota con nuestra asesoría nutricional</h1>
+            <p>Con nuestra asesoría nutricional personalizada, puedes mejorar la salud, energía y bienestar de tu mascota. ¡Dale lo mejor de la naturaleza para una vida más saludable!</p>
+            <a href="https://wa.link/9n737m" class="cta-button">Quiero realizar el cambio</a>
+        </header>
 
-        <div class="image-container">
-            <img src="images/guia.jpg" alt="Guía de Nutrición Natural para Mascotas">
-        </div>
+        <!-- Benefits Section -->
+        <section>
+            <h2 class="section-title">Beneficios de Tomar la Asesoría</h2>
+            <div class="benefits">
+                <div class="benefit">
+                    <h3>Salud Digestiva</h3>
+                    <p>Mejora la digestión de tu mascota, reduciendo problemas como diarrea o estreñimiento.</p>
+                    <img src="images/salud-digestiva.jpg" alt="Salud Digestiva">
+                </div>
+                <div class="benefit">
+                    <h3>Más Energía</h3>
+                    <p>Tu mascota se sentirá más activa, con mayor vitalidad y ganas de jugar.</p>
+                    <img src="images/mas-energia.jpg" alt="Más Energía">
+                </div>
+                <div class="benefit">
+                    <h3>Piel y Pelaje Saludable</h3>
+                    <p>Una dieta balanceada promueve un pelaje brillante y una piel más saludable.</p>
+                    <img src="images/piel-saludable.jpg" alt="Piel y Pelaje Saludable">
+                </div>
+                <div class="benefit">
+                    <h3>Prevención de Enfermedades</h3>
+                    <p>Con una nutrición adecuada, podemos prevenir enfermedades crónicas y mejorar su calidad de vida.</p>
+                    <img src="images/prevencion-enfermedades.jpg" alt="Prevención de Enfermedades">
+                </div>
+            </div>
+        </section>
 
-        <div id="form" class="form-container">
-            <h2>¡Descarga la guía gratis ahora!</h2>
-            <form action="https://wa.link/9n737m" method="get" target="_blank">
-                <input type="email" name="email" placeholder="Ingresa tu correo" required>
-                <button type="submit">Descargar Guía</button>
-            </form>
-        </div>
+        <!-- Who is it for Section -->
+        <section>
+            <h2 class="section-title">¿Para quién va dirigido?</h2>
+            <div class="image-container">
+                <img src="images/para-quien.jpg" alt="¿Para quién va dirigido?">
+            </div>
+            <p>Esta asesoría está diseñada para todos los dueños de mascotas que desean ofrecerles una vida más saludable a través de una alimentación natural y balanceada.</p>
+            <p>Si tu mascota tiene problemas digestivos, de peso o cualquier tipo de enfermedad crónica, esta asesoría es perfecta para ti. ¡Podemos ayudarte a darle lo mejor!</p>
+        </section>
+
+        <!-- Why Take It Section -->
+        <section>
+            <h2 class="section-title">¿Por qué tomar nuestra asesoría?</h2>
+            <ul>
+                <li>Nutrición basada en ingredientes frescos y naturales.</li>
+                <li>Planes personalizados adaptados a las necesidades específicas de tu mascota.</li>
+                <li>Ahorro a largo plazo al prevenir enfermedades y mejorar la calidad de vida.</li>
+                <li>Asesoría continua a través de WhatsApp para resolver cualquier duda.</li>
+            </ul>
+        </section>
+
+        <!-- What Includes Section -->
+        <section>
+            <h2 class="section-title">¿Qué incluye la Asesoría?</h2>
+            <div class="what-includes">
+                <div class="include-item">
+                    <h3>Consulta Inicial</h3>
+                    <p>Una consulta personalizada para evaluar la salud de tu mascota y determinar sus necesidades nutricionales.</p>
+                </div>
+                <div class="include-item">
+                    <h3>Plan Nutricional Personalizado</h3>
+                    <p>Te entregamos un plan detallado de alimentación basado en los requerimientos específicos de tu mascota.</p>
+                </div>
+                <div class="include-item">
+                    <h3>Acompañamiento y Soporte</h3>
+                    <p>Recibe apoyo continuo a través de WhatsApp durante el proceso para resolver dudas y ajustar el plan.</p>
+                </div>
+                <div class="include-item">
+                    <h3>Evaluación y Seguimiento</h3>
+                    <p>Un seguimiento periódico para evaluar los resultados y ajustar el plan según sea necesario.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section>
+            <h2 class="section-title">¡Es momento de hacer el cambio!</h2>
+            <p>Recuerda, una alimentación adecuada es la clave para una vida más larga y saludable para tu mascota. No esperes más, ¡haz el cambio hoy mismo!</p>
+            <a href="https://wa.link/9n737m" class="cta-button">Quiero realizar el cambio</a>
+        </section>
     </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Asesoría Nutricional Mayra Valenza. Todos los derechos reservados.</p>
+    </footer>
+    
 </body>
 </html>
